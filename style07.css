@@ -72,6 +72,10 @@ main{
     top: 10px;
 }
 
+.task:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
 .task.is-done{
     text-decoration: line-through;
     color: var(--color-black);
