@@ -4,10 +4,10 @@
     --color-brand-2: #0a096b;
     --color-brand-3: #f2dc36;
     --color-success: #f5e779;
-    --color-error: red;
-    --color-light: rgb(251, 249, 249);
-    --color-gray: gray;
-    --color-black: black;
+    --color-error: #FF0000;
+    --color-light: #FBF9F9;
+    --color-gray: #808080;
+    --color-black: #000000;
 }
 
 *{
