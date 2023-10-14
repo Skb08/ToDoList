@@ -87,7 +87,7 @@ main{
 
 .task.is-done{
     text-decoration: line-through;
-    color: var(--color-black);
+    color: var(--color-white);
     background-color: var(--color-success) !important;
 }
 
