@@ -14,17 +14,18 @@ item.addEventListener(
 
 const addTodo = (item) => {
     const listitem = document.createElement("li");
+    listitem.classList.add("task")
     listitem.innerHTML = `
     ${item}
-    <i class="fas fa-times"></i>
+    <span class="task__button-close"><i class="fas fa-times"></i></span>
     `; 
     listitem.addEventListener(
         "click",
         function(){
-            this.classList.toggle("done");
+            this.classList.toggle("is-done");
         }
     )
-    listitem.querySelector("i").addEventListener(
+    listitem.querySelector(".task__button-close").addEventListener(
         "click",
         function(){
             listitem.remove();

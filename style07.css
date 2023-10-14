@@ -21,12 +21,12 @@ main{
     border-radius: 4px;
     padding: 15px;
 }
-.box h1 {
+.box__title {
     margin-top: 5px;
     margin-bottom: 10px;
     padding-left: 70px;
 }
-#item{
+.todo__field{
     width: 100%;
     padding: 10px;
     font-size: 20px;
@@ -35,12 +35,12 @@ main{
     font-weight: bold;
     display: block;
 }
-#to-do-box {
+.todo__list {
     list-style: none;
     margin-top: 10px;
     margin-left: 2px;
 }
-#to-do-box li {
+.message {
     position: relative;
     background-color: #f2dc36;
     color: #0a096b;
@@ -53,17 +53,18 @@ main{
     white-space: initial;
     text-align: center;
 }
-#to-do-box li i{
+.message__button-close {
     position: absolute;
     right: 10px;
     top: 10px;
 }
-.done{
+
+.task.is-done{
     text-decoration: line-through;
     color: black;
     background-color: #f5e779 !important;
 }
- 
+
 /* .btn{
     position: relative;
     width: 80px;
