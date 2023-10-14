@@ -2,10 +2,12 @@
     --font-brand-1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --color-brand-1: #3cc5a7;
     --color-brand-2: #0a2a43;
+    --color-brand-2-transparent: #0a2a431a;
     --color-brand-3: #f2dc36;
     --color-brand-3-light: #f5e779;
     --color-success: #008080;
     --color-error: #FF6347;
+    --color-white: #FFFFFF;
     --color-light: #FBF9F9;
     --color-gray: #808080;
     --color-black: #000000;
@@ -70,6 +72,13 @@ main{
     position: absolute;
     right: 10px;
     top: 10px;
+}
+
+.task {
+    padding: 10px;
+    background-color: var(--color-white);
+    border-radius: 4px;
+    box-shadow: 0.1rem 0.1rem 0.1rem var(--color-brand-2-transparent);
 }
 
 .task:not(:last-child) {
