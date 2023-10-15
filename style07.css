@@ -36,6 +36,7 @@ main{
     background-color: var(--color-light);
     border-radius: 4px;
     padding: 15px;
+    overflow: hidden;
 }
 .box__title {
     margin-top: 5px;
@@ -52,9 +53,11 @@ main{
     display: block;
 }
 .todo__list {
+    max-height: 380px;
     list-style: none;
     margin-top: 20px;
     margin-left: 2px;
+    overflow-y: auto;
 }
 .message {
     position: relative;
