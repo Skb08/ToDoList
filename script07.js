@@ -16,7 +16,7 @@ const addTodo = (item) => {
     const listitem = document.createElement("li");
     listitem.classList.add("task")
     listitem.innerHTML = `
-    ${item}
+    <span class="task__text">${item}</span>
     <span class="task__button-close"><i class="fas fa-times"></i></span>
     `; 
     listitem.addEventListener(

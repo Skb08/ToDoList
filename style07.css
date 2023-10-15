@@ -80,12 +80,16 @@ main{
 
 .task {
     padding: 10px;
-    font-family: var(--font-brand-2);
-    font-size: 1.4rem;
     position: relative;
     background-color: var(--color-white);
     border-radius: 4px;
     box-shadow: 0.1rem 0.1rem 0.1rem var(--color-brand-2-transparent);
+}
+
+.task__text {
+    font-family: var(--font-brand-2);
+    font-size: 1.4rem;
+    cursor: pointer;
 }
 
 .task__button-close {
