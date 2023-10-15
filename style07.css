@@ -1,5 +1,6 @@
 :root {
     --font-brand-1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-brand-2: 'Dancing Script', serif;
     --color-brand-1: #3cc5a7;
     --color-brand-2: #0a2a43;
     --color-brand-2-transparent: #0a2a431a;
@@ -76,6 +77,8 @@ main{
 
 .task {
     padding: 10px;
+    font-family: var(--font-brand-2);
+    font-size: 1.4rem;
     background-color: var(--color-white);
     border-radius: 4px;
     box-shadow: 0.1rem 0.1rem 0.1rem var(--color-brand-2-transparent);
