@@ -79,9 +79,20 @@ main{
     padding: 10px;
     font-family: var(--font-brand-2);
     font-size: 1.4rem;
+    position: relative;
     background-color: var(--color-white);
     border-radius: 4px;
     box-shadow: 0.1rem 0.1rem 0.1rem var(--color-brand-2-transparent);
+}
+
+.task__button-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    line-height: 100%;
+    font-size: 1rem;
+    color: var(--color-error);
+    cursor: pointer;
 }
 
 .task:not(:last-child) {
@@ -92,6 +103,10 @@ main{
     text-decoration: line-through;
     color: var(--color-white);
     background-color: var(--color-success) !important;
+}
+
+.task.is-done .task__button-close{
+    color: var(--color-white);
 }
 
 /* .btn{
